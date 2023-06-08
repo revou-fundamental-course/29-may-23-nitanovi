@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+#top {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav {
+    width: 90%;
+    position: relative;
+    top: 0;
+    z-index: 5;
+    background-color: #e5bef5;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.nav-logo img{
+    max-height: 50px;
+    border-radius: 50%;
+}
+.nav-text {
+    display: flex;
+    align-items: center;
+}
+
+.nav-text a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: -1px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.welcome {
+    margin: auto;
+}
+
+.content {
+    margin: 0px 100px 0px 100px;
+}
+
+.welcome-text p{
+    margin: 10px 0px 20px 0px;
+}
+.welcome-img img{
+    width: 100%;
+    height: auto;
+}
+.headquarter {
+    margin: 20px 0px 60px 0px;
+}
+.headquarter h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#city img {
+    object-fit: cover;
+    max-height: 250px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#city p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 250px;
+    margin: 20px 10px 0px 10px;
+}
+
+#city {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#city-1 {
+    background-image: url(../img/jakarta.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 175px;
+    margin: 0px 10px 0px 10px;
+}
+#city-2 {
+    background-image: url(../img/bandung.jpeg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 175px;
+    margin: 0px 10px 0px 10px;
+}
+#city-3 {
+    background-image: url(../img/surabaya.jpg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 175px;
+    margin: 0px 10px 0px 10px;
+}
+.messageus {
+    background-color: #e5bef5;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.messageus h1 {
+    margin-bottom: 20px;
+}
+.form {
+    display: flex;
+}
+.submitted {
+    border: 1px solid black;
+    margin-left: 30px;
+    padding: 20px 20px 20px 20px;
+}
+input[type="submit"] {
+    padding: 5px;
+    
+}
+.form {
+    line-height: 30px;
+}
+.createdby {
+    text-align: end;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
