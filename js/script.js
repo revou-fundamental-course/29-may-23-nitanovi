@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3868a2efc554b7fc2c56b037df9cf439c60f8022
 var name = prompt("Please enter your name");
     document.getElementById("yourname").innerText = name; 
 
